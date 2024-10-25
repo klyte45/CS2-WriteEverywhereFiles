@@ -2,6 +2,8 @@
 
 This repository contains information about the usage and a lot of sample layouts for the Write Everywhere mod for Cities Skylines 2. Below here there are a detailed explanation about the mod usage, also there are information for asset creators that want to do assets compatible with Write Everywhere features.
 
+More samples might be added in the future.
+
 # This repository structure
 
 There are 3 folders here:
@@ -12,13 +14,15 @@ There are 3 folders here:
 # General instructions for using this mod
 ## Enabling the mod
 The mod have two accesses:
-- Using the Ctrl+Shift+W to access the WE tool, you will be able to pick any vehicle, building, prop or tree to edit their individual WE layouts
+- Using the `Ctrl+Shift+W` to access the WE tool, you will be able to pick any vehicle, building, prop or tree to edit their individual WE layouts
 - At the WE Button in the top left button bar (the circled W) , it will detail the settings stored along the city. For now it have two tabs: City Layouts and CIty Fonts
 
 ## Adding layout items
 
 When selecting the asset to be edited, you can use the buttons in the below part of Hierarchy Window . The Plus icon will have options to add empty items (at root, or if any node is selected also will display options for adding as child or as sibling - this last if the current selection does have a parent layout item).
+
 Also there are options to save and load templates from XML or from city layouts templates. Also there's an option to export the layout as *prefab default template* (explained ahead).
+
 At the right of this window there's a cut, copy, paste and delete buttons. The paste buttons also displays a menu to select where to paste, like the add button have.
 
 ## Editing layout items
@@ -32,11 +36,13 @@ There are 4 types of layout items:
 ### Coloring and Shading
 
 At this build, it's possible to edit many shader parameters, like color, emissive color, roughness, etc. Go to appearance settings button in the bottom of the WE tool options when a layout node is selected to open the window.
+
 Also there's a window for decals support. By default, it accepts vehicles decals (called in the mod as *Decal filter for dynamic objects*) to avoid the shader to capture unwanted area shaders, but also can be setted up to accept road, building and any other category of decals. This can open possibilities to use the planes as wall or roofs with detailing
 
 ### Sizing
 
 The unit used for sizing at mod UI is centimeter (cm) since the layouts are targeted for small stuff. All layout items supports sizing, but each one behaves a little different due their nature:
+
 - Text: You can define the height of the font (line size) and the width distortion. Also you can determine the maximum width - when overflow it squashes the text, other effects may be added later
 - Image: All images will have their height as being considered 100cm (1m) as default. By default, changing the height will proportionally changes the width to keep the aspect ratio, but there's an option allowing to edit both directly
 - Placeholder: The size here is just for editor purposes, since it's not applied to the generated layout. It can help to check what will be the looking of the generated layout when one get applied.
@@ -61,8 +67,10 @@ It lists all fonts installed in the city, or required by any city layout. Fonts 
 There's a button to import the font from a file. The format accepted by the mod is the TTF font. You can add files from anywhere in your PC, but the window will start navigation from the Fonts folder inside the WE's ModsData place, so I recommend to add the TTF you will use there.
 
 When selecting a font, it will display some actions (rename, duplicate and remove) and a preview will be shown displaying the font. You can type a text in the input field above the preview to see how the font behaves.
+
 The WE renderer have a smart resolution of missing glyphs and always will try to display a glyph, even if the original one is missing. As practical example, if the glyph for the letter "Á" (Uppercase A with acute accent) doesn't exists in the font, it will try to decompose the glyph (look for NFKD normalization for more details) and will try to find the decomposed glyphs individually. In this example, it will decompose to "A" + "´". Having the "A" glyph, the renderer will draw it at final mesh - and will ignore the rest of decomposition.
-The above behavior **isn't** displayed at preview, and will may show the missing glyph as a empty square.
+
+The above behavior **isn't** displayed at preview window, and will may show the missing glyph as a empty square.
 
 For the sake of performance, the font names must be composed of alphanumeric or underscores only (case insensitive), and their length must be less than 30 characters.
 
@@ -75,6 +83,7 @@ The list will show all the atlases currently stored in the savegame followed by 
 ## Placeholder naming standards
 
 All standard names for placeholder will follow the pattern `_XXXXXXXXX_YYYYYYYYY` being `XXXXXXXXX` representing a group of placeholders and `YYYYYYYYY` representing a specific usage - all them in uppercase. Some patterns already proposed are below.
+
 It's possible to use the same model for many different placeholders by just duplicating them for all names applicable.
 
 ### Group `VEHICLEPLATE`
@@ -109,6 +118,7 @@ For advanced users, is recommended to get some introduction about Unity ECS syst
 When building a formulae, it always start with the Entity of the selected object (by example, a Car). Then you can:
 - Select a component from the Entity (it will list all registered at game, use Scene Explorer to have details about which ones are available at this object)
 - to run a static method that receives an Entity as single parameter.
+
 After selecting any of them, the pipeline will show the current type of the item. If it still being an Entity, you will be able to do the same again. If it's not, you can:
 - Run a static method that receives that type as single parameter
 - Load a property of the object
@@ -121,18 +131,25 @@ The flow repeats "eternally". The result of the pipeline will always be a String
 
 ### Auto loading default templates for prefabs
 
-The layouts that should be automatically loaded for prefabs shall be under the prefabs folder (`<Game AppData Folder>\ModsData\Klyte45Mods\WriteEverywhere\prefabs`) and all them must follow the naming pattern: `<Prefab internal name>.wedefault.xml`. The mod will search all files with these names recursively under that folder and will load all them, merging their layouts. It can be useful for separating the default layouts parts by subfolders (example: one folder for vehicle plates locations, another for extra text of buses, etc)
+The layouts that should be automatically loaded for prefabs shall be under the prefabs folder (`<Game AppData Folder>\ModsData\Klyte45Mods\WriteEverywhere\prefabs`) and all them must follow the naming pattern: 
+> `<Prefab internal name>.wedefault.xml`
+
+
+The mod will search all files with these names recursively under that folder and will load all them, merging their layouts. It can be useful for separating the default layouts parts by subfolders (example: one folder for vehicle plates locations, another for extra text of buses, etc)
 
 Layouts refering the same prefab will be mixed at loading time.
 
 ### Exporting as prefab default layout
 
 To export a node as prefab layout, at hierarchy window click on the **parent layout item** and then go to save button, select the option **Export selected as prefab default layout** and a file will be generated at root of the prefabs folder. **IT WILL OVERRIDING EXISTING FILES**, so avoid letting the default files at root.
+
 Notice that the root layout item **will be ignored** when writing the XML file. So don't use it to add any effective stuff. Keep it position and rotation at 0 too to avoid misplacements.
 
 ### Exporting as common layout
 
-Differently of the prefab default layout, the root node will be exported in this case. It will also export to the prefabs folder above but the name can be input by the user. The name pattern is also different: `<user chosen name>.welayout.xml`. If a file with that name already exists, the mod will append a number in the front of the filename until it get to an not used name.
+Differently of the prefab default layout, the root node will be exported in this case. It will also export to the prefabs folder above but the name can be input by the user. The name pattern is also different: `<user chosen name>.welayout.xml`.
+
+If a file with that name already exists, the mod will append a number in the front of the filename until it get to an not used name.
 
 ### The XML file content
 
