@@ -44,11 +44,11 @@ The unit used for sizing at mod UI is centimeter (cm) since the layouts are targ
  
 ## The WE settings window (by clicking on circled W button)
 
-There have 2 tabs by now:
+There have 3 tabs by now:
 
 ### City layouts tab
 
-It lists all layouts that are saved in the city. At the list, there's a button to add items from XML.
+It lists all layouts that are saved in the city. At the list, there's a button to add items from XML. You can add files from anywhere in your PC, but it will start navigation from the layouts folder in the WE's ModsData place, so I recommend to leave your layouts there.
 
 When selecting an item in the list, some actions will be able to be done, like renaming, duplicating and removing the layout from the city. Also will have a button to export it as XML. *In the future, there will have a preview of the layout too*
 
@@ -57,7 +57,8 @@ For the sake of performance, the layout names must be composed of alphanumeric o
 ### City fonts tab
 
 It lists all fonts installed in the city, or required by any city layout. Fonts required by city layouts that don't have a corresponding source at city fonts will look like the default font.
-There's a button to import the font from a file. The format accepted by the mod is the TTF font.
+
+There's a button to import the font from a file. The format accepted by the mod is the TTF font. You can add files from anywhere in your PC, but the window will start navigation from the Fonts folder inside the WE's ModsData place, so I recommend to add the TTF you will use there.
 
 When selecting a font, it will display some actions (rename, duplicate and remove) and a preview will be shown displaying the font. You can type a text in the input field above the preview to see how the font behaves.
 The WE renderer have a smart resolution of missing glyphs and always will try to display a glyph, even if the original one is missing. As practical example, if the glyph for the letter "Á" (Uppercase A with acute accent) doesn't exists in the font, it will try to decompose the glyph (look for NFKD normalization for more details) and will try to find the decomposed glyphs individually. In this example, it will decompose to "A" + "´". Having the "A" glyph, the renderer will draw it at final mesh - and will ignore the rest of decomposition.
@@ -69,6 +70,8 @@ For the sake of performance, the font names must be composed of alphanumeric or 
 
 In this tab you can import a whole atlas to inside the current savegame. It will increase the savegame size but will make the city independent from atlases loaded from the sprites library folder. It's useful if you want to share your city with your custom layouts.
 
+The list will show all the atlases currently stored in the savegame followed by all other atlases loaded from the sprites folder. If there's atlases with the same name in both groups, the savegame atlas version will be shown when redering the mod layouts. Also there's a preview showing the atlas content, it may freeze the game for a while when selecting huge atlases.
+
 ## Placeholder naming standards
 
 All standard names for placeholder will follow the pattern `_XXXXXXXXX_YYYYYYYYY` being `XXXXXXXXX` representing a group of placeholders and `YYYYYYYYY` representing a specific usage - all them in uppercase. Some patterns already proposed are below.
@@ -79,6 +82,8 @@ It's possible to use the same model for many different placeholders by just dupl
 This group holds layouts for vehicle plates. Asset makers can use it to hold position for a player layout in their vehicles.
 
 - `_VEHICLEPLATE_CAR`: Plate used for common citizen cars.
+- `_VEHICLEPLATE_MOTORCYCLE`: Plate used for common citizen motorcycles.
+- `_VEHICLEPLATE_BICYCLE`: Plate used for common citizen bicycles (when game have support for that).
 - `_VEHICLEPLATE_TRUCK`: Plate used for trucks.
 - `_VEHICLEPLATE_BUS`: Plate used for buses.
 - `_VEHICLEPLATE_TAXI`: Plate used for taxis.
