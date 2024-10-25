@@ -121,13 +121,14 @@ The flow repeats "eternally". The result of the pipeline will always be a String
 
 ### Auto loading default templates for prefabs
 
-The layouts that should be automatically loaded for prefabs shall be under the prefabs folder (`<Game AppData Folder>\ModsData\Klyte45Mods\WriteEverywhere\prefabs`) and all them must follow the naming pattern: `<Prefab internal name>.wedefault.xml`. The mod will search all files with these names recursively under that folder and will load all them, merging their layouts. It can be useful for separating the default layouts parts by subfolders (example: one folder for vehicle plates locations, another for extra text of buses, etc )
+The layouts that should be automatically loaded for prefabs shall be under the prefabs folder (`<Game AppData Folder>\ModsData\Klyte45Mods\WriteEverywhere\prefabs`) and all them must follow the naming pattern: `<Prefab internal name>.wedefault.xml`. The mod will search all files with these names recursively under that folder and will load all them, merging their layouts. It can be useful for separating the default layouts parts by subfolders (example: one folder for vehicle plates locations, another for extra text of buses, etc)
+
+Layouts refering the same prefab will be mixed at loading time.
 
 ### Exporting as prefab default layout
 
 To export a node as prefab layout, at hierarchy window click on the **parent layout item** and then go to save button, select the option **Export selected as prefab default layout** and a file will be generated at root of the prefabs folder. **IT WILL OVERRIDING EXISTING FILES**, so avoid letting the default files at root.
 Notice that the root layout item **will be ignored** when writing the XML file. So don't use it to add any effective stuff. Keep it position and rotation at 0 too to avoid misplacements.
-> **NOTE: A known bug is that saving a new prefab default layout is making the game to crash after creating the file. Looking on it already.**
 
 ### Exporting as common layout
 
