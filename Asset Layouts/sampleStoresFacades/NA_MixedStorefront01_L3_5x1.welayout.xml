@@ -1,0 +1,26 @@
+<WELayout>
+  <children>
+    <self itemName="New item">
+      <transform>
+        <offsetPosition x="0" y="3.51" z="0.25" />
+        <offsetRotation x="-0" y="0" z="0" />
+        <scale x="0.5" y="0.5" z="1" />
+      </transform>
+      <textMesh fontName="MAGNETOB">
+        <text formulae="Game.Common.Owner;m_Owner/&amp;BelzontWE.WEBuiltinFn;GetEntityName">NEW TEXT</text>
+      </textMesh>
+      <defaultStyle>
+        <color>FFFFFFFF</color>
+        <emissiveColor>FF007FFF</emissiveColor>
+        <metallic>0</metallic>
+        <smoothness>0</smoothness>
+        <emissiveIntensity>29.431</emissiveIntensity>
+        <emissiveExposureWeight>0</emissiveExposureWeight>
+        <coatStrength>0</coatStrength>
+        <colorMask1>FFFFFF</colorMask1>
+        <colorMask2>FFFFFF</colorMask2>
+        <colorMask3>FFFFFF</colorMask3>
+      </defaultStyle>
+    </self>
+  </children>
+</WELayout>

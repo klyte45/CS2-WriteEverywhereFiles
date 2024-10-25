@@ -1,0 +1,350 @@
+<WELayout>
+  <children>
+    <self itemName="L1">
+      <transform>
+        <offsetPosition x="0" y="5.31" z="0" />
+        <offsetRotation x="-0" y="0" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+      <textMesh fontName="">
+        <text></text>
+      </textMesh>
+      <defaultStyle>
+        <color>FFFFFFFF</color>
+        <emissiveColor>FFFFFFFF</emissiveColor>
+        <metallic>0</metallic>
+        <smoothness>0</smoothness>
+        <emissiveIntensity>0</emissiveIntensity>
+        <emissiveExposureWeight>0</emissiveExposureWeight>
+        <coatStrength>0</coatStrength>
+        <colorMask1>FFFFFF</colorMask1>
+        <colorMask2>FFFFFF</colorMask2>
+        <colorMask3>FFFFFF</colorMask3>
+      </defaultStyle>
+    </self>
+    <children>
+      <self itemName="P1 B">
+        <transform>
+          <offsetPosition x="0.2" y="0" z="-0.205" />
+          <offsetRotation x="-0" y="180" z="0" />
+          <scale x="1.14984381" y="0.7" z="1" />
+        </transform>
+        <whiteMesh />
+        <defaultStyle>
+          <color>000000FF</color>
+          <emissiveColor>FFFFFFFF</emissiveColor>
+          <metallic>0</metallic>
+          <smoothness>0</smoothness>
+          <emissiveIntensity>0</emissiveIntensity>
+          <emissiveExposureWeight>0</emissiveExposureWeight>
+          <coatStrength>0</coatStrength>
+          <colorMask1>FFFFFF</colorMask1>
+          <colorMask2>FFFFFF</colorMask2>
+          <colorMask3>FFFFFF</colorMask3>
+        </defaultStyle>
+      </self>
+      <children>
+        <self itemName="Price">
+          <transform>
+            <offsetPosition x="0" y="0" z="0.001" />
+            <offsetRotation x="-0" y="0" z="0" />
+            <scale x="0.301718742" y="0.301718742" z="1" />
+          </transform>
+          <textMesh fontName="LedBoardFont" maxWidthMeters="1.15">
+            <text formulae="Game.Common.Owner;m_Owner/&amp;BelzontWE.Builtin.WEBuildingFn;GetBuildingMainRenter/&amp;BelzontWE.Builtin.WERenterFn;GetTradeCost0.m_SellCost/&amp;BelzontWE.Builtin.WENumberFormattingFn;To4DigitsValue">1.777</text>
+          </textMesh>
+          <defaultStyle>
+            <color>FFFFFFFF</color>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <metallic>0</metallic>
+            <smoothness>0</smoothness>
+            <emissiveIntensity>2.07586455</emissiveIntensity>
+            <emissiveExposureWeight>0</emissiveExposureWeight>
+            <coatStrength>0</coatStrength>
+            <colorMask1>FFFFFF</colorMask1>
+            <colorMask2>FFFFFF</colorMask2>
+            <colorMask3>FFFFFF</colorMask3>
+          </defaultStyle>
+        </self>
+      </children>
+    </children>
+    <children>
+      <self itemName="P1 F">
+        <transform>
+          <offsetPosition x="-0.2" y="0" z="0.201999918" />
+          <offsetRotation x="-0" y="0" z="0" />
+          <scale x="1.14984381" y="0.7" z="1" />
+        </transform>
+        <whiteMesh />
+        <defaultStyle>
+          <color>000000FF</color>
+          <emissiveColor>FFFFFFFF</emissiveColor>
+          <metallic>0</metallic>
+          <smoothness>0</smoothness>
+          <emissiveIntensity>0</emissiveIntensity>
+          <emissiveExposureWeight>0</emissiveExposureWeight>
+          <coatStrength>0</coatStrength>
+          <colorMask1>FFFFFF</colorMask1>
+          <colorMask2>FFFFFF</colorMask2>
+          <colorMask3>FFFFFF</colorMask3>
+        </defaultStyle>
+      </self>
+      <children>
+        <self itemName="Price">
+          <transform>
+            <offsetPosition x="0" y="0" z="0.001" />
+            <offsetRotation x="-0" y="0" z="0" />
+            <scale x="0.301718742" y="0.301718742" z="1" />
+          </transform>
+          <textMesh fontName="LedBoardFont" maxWidthMeters="1.15">
+            <text formulae="Game.Common.Owner;m_Owner/&amp;BelzontWE.Builtin.WEBuildingFn;GetBuildingMainRenter/&amp;BelzontWE.Builtin.WERenterFn;GetTradeCost0.m_SellCost/&amp;BelzontWE.Builtin.WENumberFormattingFn;To4DigitsValue">1.777</text>
+          </textMesh>
+          <defaultStyle>
+            <color>FFFFFFFF</color>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <metallic>0</metallic>
+            <smoothness>0</smoothness>
+            <emissiveIntensity>2.07586455</emissiveIntensity>
+            <emissiveExposureWeight>0</emissiveExposureWeight>
+            <coatStrength>0</coatStrength>
+            <colorMask1>FFFFFF</colorMask1>
+            <colorMask2>FFFFFF</colorMask2>
+            <colorMask3>FFFFFF</colorMask3>
+          </defaultStyle>
+        </self>
+      </children>
+    </children>
+  </children>
+  <children>
+    <self itemName="L2">
+      <transform>
+        <offsetPosition x="0" y="4.20599937" z="0" />
+        <offsetRotation x="-0" y="0" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+      <textMesh fontName="">
+        <text></text>
+      </textMesh>
+      <defaultStyle>
+        <color>FFFFFFFF</color>
+        <emissiveColor>FFFFFFFF</emissiveColor>
+        <metallic>0</metallic>
+        <smoothness>0</smoothness>
+        <emissiveIntensity>0</emissiveIntensity>
+        <emissiveExposureWeight>0</emissiveExposureWeight>
+        <coatStrength>0</coatStrength>
+        <colorMask1>FFFFFF</colorMask1>
+        <colorMask2>FFFFFF</colorMask2>
+        <colorMask3>FFFFFF</colorMask3>
+      </defaultStyle>
+    </self>
+    <children>
+      <self itemName="P1 B">
+        <transform>
+          <offsetPosition x="0.2" y="0" z="-0.205" />
+          <offsetRotation x="-0" y="180" z="0" />
+          <scale x="1.14984381" y="0.7" z="1" />
+        </transform>
+        <whiteMesh />
+        <defaultStyle>
+          <color>000000FF</color>
+          <emissiveColor>FFFFFFFF</emissiveColor>
+          <metallic>0</metallic>
+          <smoothness>0</smoothness>
+          <emissiveIntensity>0</emissiveIntensity>
+          <emissiveExposureWeight>0</emissiveExposureWeight>
+          <coatStrength>0</coatStrength>
+          <colorMask1>FFFFFF</colorMask1>
+          <colorMask2>FFFFFF</colorMask2>
+          <colorMask3>FFFFFF</colorMask3>
+        </defaultStyle>
+      </self>
+      <children>
+        <self itemName="Price">
+          <transform>
+            <offsetPosition x="0" y="0" z="0.001" />
+            <offsetRotation x="-0" y="0" z="0" />
+            <scale x="0.301718742" y="0.301718742" z="1" />
+          </transform>
+          <textMesh fontName="LedBoardFont" maxWidthMeters="1.15">
+            <text formulae="Game.Common.Owner;m_Owner/&amp;BelzontWE.Builtin.WEBuildingFn;GetBuildingMainRenter/&amp;BelzontWE.Builtin.WERenterFn;GetTradeCost1.m_SellCost/&amp;BelzontWE.Builtin.WENumberFormattingFn;To4DigitsValue">1.777</text>
+          </textMesh>
+          <defaultStyle>
+            <color>FFFFFFFF</color>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <metallic>0</metallic>
+            <smoothness>0</smoothness>
+            <emissiveIntensity>2.07586455</emissiveIntensity>
+            <emissiveExposureWeight>0</emissiveExposureWeight>
+            <coatStrength>0</coatStrength>
+            <colorMask1>FFFFFF</colorMask1>
+            <colorMask2>FFFFFF</colorMask2>
+            <colorMask3>FFFFFF</colorMask3>
+          </defaultStyle>
+        </self>
+      </children>
+    </children>
+    <children>
+      <self itemName="P1 F">
+        <transform>
+          <offsetPosition x="-0.2" y="0" z="0.201999918" />
+          <offsetRotation x="-0" y="0" z="0" />
+          <scale x="1.14984381" y="0.7" z="1" />
+        </transform>
+        <whiteMesh />
+        <defaultStyle>
+          <color>000000FF</color>
+          <emissiveColor>FFFFFFFF</emissiveColor>
+          <metallic>0</metallic>
+          <smoothness>0</smoothness>
+          <emissiveIntensity>0</emissiveIntensity>
+          <emissiveExposureWeight>0</emissiveExposureWeight>
+          <coatStrength>0</coatStrength>
+          <colorMask1>FFFFFF</colorMask1>
+          <colorMask2>FFFFFF</colorMask2>
+          <colorMask3>FFFFFF</colorMask3>
+        </defaultStyle>
+      </self>
+      <children>
+        <self itemName="Price">
+          <transform>
+            <offsetPosition x="0" y="0" z="0.001" />
+            <offsetRotation x="-0" y="0" z="0" />
+            <scale x="0.301718742" y="0.301718742" z="1" />
+          </transform>
+          <textMesh fontName="LedBoardFont" maxWidthMeters="1.15">
+            <text formulae="Game.Common.Owner;m_Owner/&amp;BelzontWE.Builtin.WEBuildingFn;GetBuildingMainRenter/&amp;BelzontWE.Builtin.WERenterFn;GetTradeCost1.m_SellCost/&amp;BelzontWE.Builtin.WENumberFormattingFn;To4DigitsValue">1.777</text>
+          </textMesh>
+          <defaultStyle>
+            <color>FFFFFFFF</color>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <metallic>0</metallic>
+            <smoothness>0</smoothness>
+            <emissiveIntensity>2.07586455</emissiveIntensity>
+            <emissiveExposureWeight>0</emissiveExposureWeight>
+            <coatStrength>0</coatStrength>
+            <colorMask1>FFFFFF</colorMask1>
+            <colorMask2>FFFFFF</colorMask2>
+            <colorMask3>FFFFFF</colorMask3>
+          </defaultStyle>
+        </self>
+      </children>
+    </children>
+  </children>
+  <children>
+    <self itemName="L3">
+      <transform>
+        <offsetPosition x="0" y="3.07899976" z="0" />
+        <offsetRotation x="-0" y="0" z="0" />
+        <scale x="1" y="1" z="1" />
+      </transform>
+      <textMesh fontName="">
+        <text></text>
+      </textMesh>
+      <defaultStyle>
+        <color>FFFFFFFF</color>
+        <emissiveColor>FFFFFFFF</emissiveColor>
+        <metallic>0</metallic>
+        <smoothness>0</smoothness>
+        <emissiveIntensity>0</emissiveIntensity>
+        <emissiveExposureWeight>0</emissiveExposureWeight>
+        <coatStrength>0</coatStrength>
+        <colorMask1>FFFFFF</colorMask1>
+        <colorMask2>FFFFFF</colorMask2>
+        <colorMask3>FFFFFF</colorMask3>
+      </defaultStyle>
+    </self>
+    <children>
+      <self itemName="P1 B">
+        <transform>
+          <offsetPosition x="0.2" y="0" z="-0.205" />
+          <offsetRotation x="-0" y="180" z="0" />
+          <scale x="1.14984381" y="0.7" z="1" />
+        </transform>
+        <whiteMesh />
+        <defaultStyle>
+          <color>000000FF</color>
+          <emissiveColor>FFFFFFFF</emissiveColor>
+          <metallic>0</metallic>
+          <smoothness>0</smoothness>
+          <emissiveIntensity>0</emissiveIntensity>
+          <emissiveExposureWeight>0</emissiveExposureWeight>
+          <coatStrength>0</coatStrength>
+          <colorMask1>FFFFFF</colorMask1>
+          <colorMask2>FFFFFF</colorMask2>
+          <colorMask3>FFFFFF</colorMask3>
+        </defaultStyle>
+      </self>
+      <children>
+        <self itemName="Price">
+          <transform>
+            <offsetPosition x="0" y="0" z="0.001" />
+            <offsetRotation x="-0" y="0" z="0" />
+            <scale x="0.301718742" y="0.301718742" z="1" />
+          </transform>
+          <textMesh fontName="LedBoardFont" maxWidthMeters="1.15">
+            <text formulae="Game.Common.Owner;m_Owner/&amp;BelzontWE.Builtin.WEBuildingFn;GetBuildingMainRenter/&amp;BelzontWE.Builtin.WERenterFn;GetTradeCost2.m_SellCost/&amp;BelzontWE.Builtin.WENumberFormattingFn;To4DigitsValue">1.777</text>
+          </textMesh>
+          <defaultStyle>
+            <color>FFFFFFFF</color>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <metallic>0</metallic>
+            <smoothness>0</smoothness>
+            <emissiveIntensity>2.07586455</emissiveIntensity>
+            <emissiveExposureWeight>0</emissiveExposureWeight>
+            <coatStrength>0</coatStrength>
+            <colorMask1>FFFFFF</colorMask1>
+            <colorMask2>FFFFFF</colorMask2>
+            <colorMask3>FFFFFF</colorMask3>
+          </defaultStyle>
+        </self>
+      </children>
+    </children>
+    <children>
+      <self itemName="P1 F">
+        <transform>
+          <offsetPosition x="-0.2" y="0" z="0.201999918" />
+          <offsetRotation x="-0" y="0" z="0" />
+          <scale x="1.14984381" y="0.7" z="1" />
+        </transform>
+        <whiteMesh />
+        <defaultStyle>
+          <color>000000FF</color>
+          <emissiveColor>FFFFFFFF</emissiveColor>
+          <metallic>0</metallic>
+          <smoothness>0</smoothness>
+          <emissiveIntensity>0</emissiveIntensity>
+          <emissiveExposureWeight>0</emissiveExposureWeight>
+          <coatStrength>0</coatStrength>
+          <colorMask1>FFFFFF</colorMask1>
+          <colorMask2>FFFFFF</colorMask2>
+          <colorMask3>FFFFFF</colorMask3>
+        </defaultStyle>
+      </self>
+      <children>
+        <self itemName="Price">
+          <transform>
+            <offsetPosition x="0" y="0" z="0.001" />
+            <offsetRotation x="-0" y="0" z="0" />
+            <scale x="0.301718742" y="0.301718742" z="1" />
+          </transform>
+          <textMesh fontName="LedBoardFont" maxWidthMeters="1.15">
+            <text formulae="Game.Common.Owner;m_Owner/&amp;BelzontWE.Builtin.WEBuildingFn;GetBuildingMainRenter/&amp;BelzontWE.Builtin.WERenterFn;GetTradeCost2.m_SellCost/&amp;BelzontWE.Builtin.WENumberFormattingFn;To4DigitsValue">1.777</text>
+          </textMesh>
+          <defaultStyle>
+            <color>FFFFFFFF</color>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <metallic>0</metallic>
+            <smoothness>0</smoothness>
+            <emissiveIntensity>2.07586455</emissiveIntensity>
+            <emissiveExposureWeight>0</emissiveExposureWeight>
+            <coatStrength>0</coatStrength>
+            <colorMask1>FFFFFF</colorMask1>
+            <colorMask2>FFFFFF</colorMask2>
+            <colorMask3>FFFFFF</colorMask3>
+          </defaultStyle>
+        </self>
+      </children>
+    </children>
+  </children>
+</WELayout>

@@ -1,0 +1,26 @@
+<WELayout>
+  <children>
+    <self itemName="Back Plate">
+      <layoutMesh>
+        <layout>_VEHICLEPLATE_TRUCK</layout>
+      </layoutMesh>
+      <transform>
+        <offsetPosition x="0.9929955" y="0.644999564" z="-4.012001" />
+        <offsetRotation x="1.00179122E-05" y="180" z="-3.57812424E-15" />
+        <scale x="0.35" y="0.13" z="1" />
+      </transform>
+    </self>
+  </children>
+  <children>
+    <self itemName="Front Plate">
+      <layoutMesh>
+        <layout>_VEHICLEPLATE_TRUCK</layout>
+      </layoutMesh>
+      <transform>
+        <offsetPosition x="0" y="0.53" z="4.06" />
+        <offsetRotation x="-0" y="0" z="0" />
+        <scale x="0.35" y="0.13" z="1" />
+      </transform>
+    </self>
+  </children>
+</WELayout>

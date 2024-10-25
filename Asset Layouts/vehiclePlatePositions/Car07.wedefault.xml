@@ -1,0 +1,26 @@
+<WELayout>
+  <children>
+    <self itemName="Plate">
+      <layoutMesh>
+        <layout>_VEHICLEPLATE_CAR</layout>
+      </layoutMesh>
+      <transform>
+        <offsetPosition x="0" y="0.5739564" z="-2.47471046" />
+        <offsetRotation x="-6.400001" y="180" z="0" />
+        <scale x="0.65" y="0.13" z="1" />
+      </transform>
+    </self>
+  </children>
+  <children>
+    <self itemName="Plate">
+      <layoutMesh>
+        <layout>_VEHICLEPLATE_CAR</layout>
+      </layoutMesh>
+      <transform>
+        <offsetPosition x="0" y="0.411945969" z="2.358524" />
+        <offsetRotation x="-0" y="0.00" z="0" />
+        <scale x="0.65" y="0.13" z="1" />
+      </transform>
+    </self>
+  </children>
+</WELayout>

@@ -1,0 +1,72 @@
+<WELayout>
+  <children>
+    <self itemName="New item">
+      <transform>
+        <offsetPosition x="9.832" y="2.359" z="1.34000075" />
+        <offsetRotation x="-0" y="0" z="0" />
+        <scale x="0.7" y="0.4" z="1" />
+      </transform>
+      <whiteMesh />
+      <defaultStyle>
+        <color formulae="&amp;BelzontWE.Builtin.WEBuildingFn;GetBuildingMainRenter/Game.Companies.CompanyData;m_Brand/Game.Prefabs.BrandData;m_ColorSet.m_Channel1">FFFFFFFF</color>
+        <emissiveColor formulae="&amp;BelzontWE.Builtin.WEBuildingFn;GetBuildingMainRenter/Game.Companies.CompanyData;m_Brand/Game.Prefabs.BrandData;m_ColorSet.m_Channel1">FFFFFFFF</emissiveColor>
+        <metallic>0</metallic>
+        <smoothness>0</smoothness>
+        <emissiveIntensity>0.2589254</emissiveIntensity>
+        <emissiveExposureWeight>0</emissiveExposureWeight>
+        <coatStrength>0</coatStrength>
+        <colorMask1>FFFFFF</colorMask1>
+        <colorMask2>FFFFFF</colorMask2>
+        <colorMask3>FFFFFF</colorMask3>
+      </defaultStyle>
+    </self>
+    <children>
+      <self itemName="New item">
+        <transform>
+          <offsetPosition x="-0" y="-0.0539999977" z="0.001" />
+          <offsetRotation x="-0" y="0" z="0" />
+          <scale x="0.17" y="0.17" z="1" />
+        </transform>
+        <textMesh fontName="HelveticaWorld_Regular" maxWidthMeters="0.65">
+          <text formulae="&amp;BelzontWE.Builtin.WEBuildingFn;GetBuildingRoadNumber">12345</text>
+        </textMesh>
+        <defaultStyle>
+          <color>FFFFFFFF</color>
+          <emissiveColor formulae="&amp;BelzontWE.Builtin.WEBuildingFn;GetBuildingMainRenter/Game.Companies.CompanyData;m_Brand/Game.Prefabs.BrandData;m_ColorSet.m_Channel0">FFFFFFFF</emissiveColor>
+          <metallic>0</metallic>
+          <smoothness>0</smoothness>
+          <emissiveIntensity>3.68764687</emissiveIntensity>
+          <emissiveExposureWeight>0</emissiveExposureWeight>
+          <coatStrength>0</coatStrength>
+          <colorMask1>FFFFFF</colorMask1>
+          <colorMask2>FFFFFF</colorMask2>
+          <colorMask3>FFFFFF</colorMask3>
+        </defaultStyle>
+      </self>
+    </children>
+    <children>
+      <self itemName="New item">
+        <transform>
+          <offsetPosition x="0" y="0.127" z="0.001" />
+          <offsetRotation x="-0" y="0" z="0" />
+          <scale x="0.06" y="0.06" z="1" />
+        </transform>
+        <textMesh fontName="HelveticaWorld_Regular" maxWidthMeters="0.65">
+          <text formulae="&amp;BelzontWE.Builtin.WEBuildingFn;GetBuildingRoad/&amp;BelzontWE.Builtin.WEUtitlitiesFn;GetEntityName">NEW TEXT</text>
+        </textMesh>
+        <defaultStyle>
+          <color>FFFFFFFF</color>
+          <emissiveColor formulae="&amp;BelzontWE.Builtin.WEBuildingFn;GetBuildingMainRenter/Game.Companies.CompanyData;m_Brand/Game.Prefabs.BrandData;m_ColorSet.m_Channel0">FFFFFFFF</emissiveColor>
+          <metallic>0</metallic>
+          <smoothness>0</smoothness>
+          <emissiveIntensity>3.68764687</emissiveIntensity>
+          <emissiveExposureWeight>0</emissiveExposureWeight>
+          <coatStrength>0</coatStrength>
+          <colorMask1>FFFFFF</colorMask1>
+          <colorMask2>FFFFFF</colorMask2>
+          <colorMask3>FFFFFF</colorMask3>
+        </defaultStyle>
+      </self>
+    </children>
+  </children>
+</WELayout>

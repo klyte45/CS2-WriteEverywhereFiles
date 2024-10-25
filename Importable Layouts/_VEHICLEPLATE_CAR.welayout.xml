@@ -1,0 +1,37 @@
+<WELayout>
+  <self itemName="New item">
+    <imageMesh atlas="_WeGeneric">
+      <image>GenericPlate</image>
+    </imageMesh>
+    <transform>
+      <offsetPosition x="0.0199999958" y="3.71999979" z="0" />
+      <offsetRotation x="-0" y="0" z="0" />
+      <scale x="0.10" y="0.10" z="1" />
+    </transform>
+    <defaultStyle> 
+      <colorMask2>000000</colorMask2> 
+      <colorMask1>FFFFFF</colorMask1>
+      <color>FFFFFFFF</color>
+      <coatStrength>0.332</coatStrength>
+      <smoothness>0.188</smoothness>
+      <metallic>0.404</metallic>
+    </defaultStyle>
+  </self>
+  <children>
+    <self itemName="Text">
+      <textMesh fontName="GlNummernschildEng" maxWidthMeters="0.31">
+        <text formulae="&amp;BelzontWE.Builtin.WEVehicleFn;GetVehiclePlate"/>
+      </textMesh>
+      <transform>
+        <offsetPosition x="-0" y="-0" z="0" />
+        <offsetRotation x="-0" y="0" z="0" />
+        <scale x="0.065" y="0.065" z="1" />
+      </transform>
+      <defaultStyle>
+        <color>000000FF</color>
+        <smoothness>0.01</smoothness>
+        <metallic>1</metallic>
+      </defaultStyle>
+    </self>
+  </children>
+</WELayout>

@@ -1,0 +1,72 @@
+<WELayout>
+  <children>
+    <self itemName="BG">
+      <transform>
+        <offsetPosition x="-0.009000167" y="2.213" z="0.498000175" />
+        <offsetRotation x="-0" y="90" z="0" />
+        <scale x="0.9" y="0.15" z="1" />
+      </transform>
+      <whiteMesh />
+      <defaultStyle>
+        <color>0C0075FF</color>
+        <emissiveColor>FFFFFFFF</emissiveColor>
+        <metallic>1</metallic>
+        <smoothness>0</smoothness>
+        <emissiveIntensity>0</emissiveIntensity>
+        <emissiveExposureWeight>0</emissiveExposureWeight>
+        <coatStrength>0</coatStrength>
+        <colorMask1>FFFFFF</colorMask1>
+        <colorMask2>FFFFFF</colorMask2>
+        <colorMask3>FFFFFF</colorMask3>
+      </defaultStyle>
+    </self>
+    <children>
+      <self itemName="TXT">
+        <transform>
+          <offsetPosition x="0" y="-0" z="-0.002" />
+          <offsetRotation x="-0" y="180" z="0" />
+          <scale x="0.08" y="0.08" z="1" />
+        </transform>
+        <textMesh fontName="HelveticaWorld_Regular" maxWidthMeters="0.8">
+          <text formulae="&amp;BelzontWE.Builtin.WERoadFn;GetRoadSegmentCrossingDataByPropAngle.CachedValue/&amp;BelzontWE.Builtin.WERoadFn;GetRoadAggregation/&amp;BelzontWE.Builtin.WEUtitlitiesFn;GetEntityName">Ág</text>
+        </textMesh>
+        <defaultStyle>
+          <color>FFFFFFFF</color>
+          <emissiveColor>FFFFFFFF</emissiveColor>
+          <metallic>1</metallic>
+          <smoothness>0</smoothness>
+          <emissiveIntensity>0</emissiveIntensity>
+          <emissiveExposureWeight>0</emissiveExposureWeight>
+          <coatStrength>0</coatStrength>
+          <colorMask1>FFFFFF</colorMask1>
+          <colorMask2>FFFFFF</colorMask2>
+          <colorMask3>FFFFFF</colorMask3>
+        </defaultStyle>
+      </self>
+    </children>
+    <children>
+      <self itemName="TXT">
+        <transform>
+          <offsetPosition x="0" y="0" z="0" />
+          <offsetRotation x="-0" y="0" z="0" />
+          <scale x="0.08" y="0.08" z="1" />
+        </transform>
+        <textMesh fontName="HelveticaWorld_Regular" maxWidthMeters="0.8">
+          <text formulae="&amp;BelzontWE.Builtin.WERoadFn;GetRoadSegmentCrossingDataByPropAngle.CachedValue/&amp;BelzontWE.Builtin.WERoadFn;GetRoadAggregation/&amp;BelzontWE.Builtin.WEUtitlitiesFn;GetEntityName">Ág</text>
+        </textMesh>
+        <defaultStyle>
+          <color>FFFFFFFF</color>
+          <emissiveColor>FFFFFFFF</emissiveColor>
+          <metallic>1</metallic>
+          <smoothness>0</smoothness>
+          <emissiveIntensity>0</emissiveIntensity>
+          <emissiveExposureWeight>0</emissiveExposureWeight>
+          <coatStrength>0</coatStrength>
+          <colorMask1>FFFFFF</colorMask1>
+          <colorMask2>FFFFFF</colorMask2>
+          <colorMask3>FFFFFF</colorMask3>
+        </defaultStyle>
+      </self>
+    </children>
+  </children>
+</WELayout>

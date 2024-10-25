@@ -1,0 +1,359 @@
+<WELayout>
+  <children>
+    <self itemName="Destination">
+      <whiteMesh />
+      <transform>
+        <offsetPosition x="0" y="2.777" z="5.67" />
+        <offsetRotation x="-0" y="0" z="0" />
+        <scale x="2" y="0.33" z="1" />
+      </transform>
+      <defaultStyle>
+        <emissiveColor>D8ED00FF</emissiveColor>
+        <color>121212FF</color>
+        <emissiveExposureWeight>0.856</emissiveExposureWeight>
+        <emissiveIntensity>0.016</emissiveIntensity>
+        <metallic>0.471</metallic>
+      </defaultStyle>
+    </self>
+    <children>
+      <self itemName="Text">
+        <textMesh fontName="LedBoardFont" maxWidthMeters="1.9">
+          <text formulae="&amp;WEVehicleFn;GetTargetDestinationDynamic"/>
+        </textMesh>
+        <transform>
+          <offsetPosition x="0" y="0" z="0.001" />
+          <offsetRotation x="-0" y="0" z="0" />
+          <scale x="0.13" y="0.13" z="1" />
+        </transform>
+        <defaultStyle>
+          <emissiveColor>FFFFFFFF</emissiveColor>
+          <color>FBFF00FF</color>
+          <emissiveExposureWeight>0.08</emissiveExposureWeight>
+          <emissiveIntensity>0.543</emissiveIntensity>
+        </defaultStyle>
+      </self>
+    </children>
+    <children>
+      <self itemName="Top">
+        <whiteMesh />
+        <transform>
+          <offsetPosition x="0" y="0.175" z="-0.14" />
+          <offsetRotation x="270" y="-0" z="0" />
+          <scale x="2.1" y="0.3" z="1" />
+        </transform>
+        <defaultStyle>
+          <emissiveColor>FFFFFFFF</emissiveColor>
+          <color>585454FF</color>
+          <coatStrength>0.401</coatStrength>
+          <metallic>1</metallic>
+        </defaultStyle>
+      </self>
+      <children>
+        <self itemName="Border">
+          <whiteMesh />
+          <transform>
+            <offsetPosition x="0" y="-0.15" z="-0.025" />
+            <offsetRotation x="90" y="0" z="0" />
+            <scale x="2.1" y="0.05" z="1" />
+          </transform>
+          <defaultStyle>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <color>585454FF</color>
+            <coatStrength>0.401</coatStrength>
+            <metallic>1</metallic>
+          </defaultStyle>
+        </self>
+      </children>
+    </children>
+    <children>
+      <self itemName="Bottom">
+        <whiteMesh />
+        <transform>
+          <offsetPosition x="0" y="-0.175" z="-0.14" />
+          <offsetRotation x="90" y="0" z="0" />
+          <scale x="2.1" y="0.3" z="1" />
+        </transform>
+        <defaultStyle>
+          <emissiveColor>FFFFFFFF</emissiveColor>
+          <color>585454FF</color>
+          <coatStrength>0.401</coatStrength>
+          <metallic>1</metallic>
+        </defaultStyle>
+      </self>
+      <children>
+        <self itemName="Border">
+          <whiteMesh />
+          <transform>
+            <offsetPosition x="0" y="0.15" z="-0.025" />
+            <offsetRotation x="270" y="180" z="0" />
+            <scale x="2.1" y="0.05" z="1" />
+          </transform>
+          <defaultStyle>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <color>585454FF</color>
+            <coatStrength>0.401</coatStrength>
+            <metallic>1</metallic>
+          </defaultStyle>
+        </self>
+      </children>
+    </children>
+    <children>
+      <self itemName="Left">
+        <whiteMesh />
+        <transform>
+          <offsetPosition x="1.05" y="0" z="-0.14" />
+          <offsetRotation x="-0" y="90" z="270" />
+          <scale x="0.35" y="0.3" z="1" />
+        </transform>
+        <defaultStyle>
+          <emissiveColor>FFFFFFFF</emissiveColor>
+          <color>585454FF</color>
+          <coatStrength>0.401</coatStrength>
+          <metallic>1</metallic>
+        </defaultStyle>
+      </self>
+      <children>
+        <self itemName="Border">
+          <whiteMesh />
+          <transform>
+            <offsetPosition x="0" y="-0.15" z="-0.025" />
+            <offsetRotation x="90" y="0" z="0" />
+            <scale x="0.3" y="0.05" z="1" />
+          </transform>
+          <defaultStyle>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <color>585454FF</color>
+            <coatStrength>0.401</coatStrength>
+            <metallic>1</metallic>
+          </defaultStyle>
+        </self>
+      </children>
+    </children>
+    <children>
+      <self itemName="Right">
+        <whiteMesh />
+        <transform>
+          <offsetPosition x="-1.05" y="0" z="-0.14" />
+          <offsetRotation x="-0" y="270" z="90" />
+          <scale x="0.35" y="0.3" z="1" />
+        </transform>
+        <defaultStyle>
+          <emissiveColor>FFFFFFFF</emissiveColor>
+          <color>585454FF</color>
+          <coatStrength>0.401</coatStrength>
+          <metallic>1</metallic>
+        </defaultStyle>
+      </self>
+      <children>
+        <self itemName="Border">
+          <whiteMesh />
+          <transform>
+            <offsetPosition x="0" y="-0.15" z="-0.025" />
+            <offsetRotation x="90" y="0" z="0" />
+            <scale x="0.3" y="0.05" z="1" />
+          </transform>
+          <defaultStyle>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <color>585454FF</color>
+            <coatStrength>0.401</coatStrength>
+            <metallic>1</metallic>
+          </defaultStyle>
+        </self>
+      </children>
+    </children>
+    <children>
+      <self itemName="Glass">
+        <whiteMesh />
+        <transform>
+          <offsetPosition x="0" y="0" z="0.007" />
+          <offsetRotation x="-0" y="0" z="0" />
+          <scale x="2" y="0.35" z="1" />
+        </transform>
+        <glassStyle>
+          <glassColor>FFFFFF</glassColor>
+          <thickness>0.5</thickness>
+          <smoothness>0.888</smoothness>
+        </glassStyle>
+      </self>
+    </children>
+  </children>
+  <children>
+    <self itemName="Back Panel">
+      <whiteMesh />
+      <transform>
+        <offsetPosition x="-0.00300006079" y="2.816" z="-6.31599951" />
+        <offsetRotation x="-0" y="180" z="0" />
+        <scale x="0.38" y="0.23" z="1" />
+      </transform>
+      <defaultStyle>
+        <emissiveColor>D8ED00FF</emissiveColor>
+        <color>121212FF</color>
+        <emissiveExposureWeight>0.856</emissiveExposureWeight>
+        <emissiveIntensity>0.016</emissiveIntensity>
+        <metallic>0.471</metallic>
+      </defaultStyle>
+    </self>
+    <children>
+      <self itemName="Text">
+        <textMesh fontName="LedBoardFont" maxWidthMeters="0.32">
+          <text formulae="&amp;WEVehicleFn;GetTransportLineNumber" />
+        </textMesh>
+        <transform>
+          <offsetPosition x="0" y="0" z="0.001" />
+          <offsetRotation x="-0" y="0" z="0" />
+          <scale x="0.16" y="0.16" z="1" />
+        </transform>
+        <defaultStyle>
+          <emissiveColor>FFFFFFFF</emissiveColor>
+          <color>FBFF00FF</color>
+          <emissiveExposureWeight>0.08</emissiveExposureWeight>
+          <emissiveIntensity>0.543</emissiveIntensity>
+        </defaultStyle>
+      </self>
+    </children>
+    <children>
+      <self itemName="Top">
+        <whiteMesh />
+        <transform>
+          <offsetPosition x="0" y="0.12" z="-0.14" />
+          <offsetRotation x="270" y="-0" z="0" />
+          <scale x="0.4" y="0.3" z="1" />
+        </transform>
+        <defaultStyle>
+          <emissiveColor>FFFFFFFF</emissiveColor>
+          <color>585454FF</color>
+          <coatStrength>0.401</coatStrength>
+          <metallic>1</metallic>
+        </defaultStyle>
+      </self>
+      <children>
+        <self itemName="Border">
+          <whiteMesh />
+          <transform>
+            <offsetPosition x="0" y="-0.15" z="-0.0125" />
+            <offsetRotation x="90" y="0" z="0" />
+            <scale x="0.4" y="0.03" z="1" />
+          </transform>
+          <defaultStyle>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <color>585454FF</color>
+            <coatStrength>0.401</coatStrength>
+            <metallic>1</metallic>
+          </defaultStyle>
+        </self>
+      </children>
+    </children>
+    <children>
+      <self itemName="Bottom">
+        <whiteMesh />
+        <transform>
+          <offsetPosition x="0" y="-0.12" z="-0.14" />
+          <offsetRotation x="90" y="0" z="0" />
+          <scale x="0.4" y="0.3" z="1" />
+        </transform>
+        <defaultStyle>
+          <emissiveColor>FFFFFFFF</emissiveColor>
+          <color>585454FF</color>
+          <coatStrength>0.401</coatStrength>
+          <metallic>1</metallic>
+        </defaultStyle>
+      </self>
+      <children>
+        <self itemName="Border">
+          <whiteMesh />
+          <transform>
+            <offsetPosition x="0" y="0.15" z="-0.0125" />
+            <offsetRotation x="270" y="180" z="0" />
+            <scale x="0.4" y="0.03" z="1" />
+          </transform>
+          <defaultStyle>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <color>585454FF</color>
+            <coatStrength>0.401</coatStrength>
+            <metallic>1</metallic>
+          </defaultStyle>
+        </self>
+      </children>
+    </children>
+    <children>
+      <self itemName="Left">
+        <whiteMesh />
+        <transform>
+          <offsetPosition x="0.2" y="0" z="-0.14" />
+          <offsetRotation x="-0" y="90" z="270" />
+          <scale x="0.24" y="0.3" z="1" />
+        </transform>
+        <defaultStyle>
+          <emissiveColor>FFFFFFFF</emissiveColor>
+          <color>585454FF</color>
+          <coatStrength>0.401</coatStrength>
+          <metallic>1</metallic>
+        </defaultStyle>
+      </self>
+      <children>
+        <self itemName="Border">
+          <whiteMesh />
+          <transform>
+            <offsetPosition x="0" y="-0.15" z="-0.0125" />
+            <offsetRotation x="90" y="0" z="0" />
+            <scale x="0.24" y="0.03" z="1" />
+          </transform>
+          <defaultStyle>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <color>585454FF</color>
+            <coatStrength>0.401</coatStrength>
+            <metallic>1</metallic>
+          </defaultStyle>
+        </self>
+      </children>
+    </children>
+    <children>
+      <self itemName="Right">
+        <whiteMesh />
+        <transform>
+          <offsetPosition x="-0.2" y="0" z="-0.14" />
+          <offsetRotation x="-0" y="270" z="90" />
+          <scale x="0.24" y="0.3" z="1" />
+        </transform>
+        <defaultStyle>
+          <emissiveColor>FFFFFFFF</emissiveColor>
+          <color>585454FF</color>
+          <coatStrength>0.401</coatStrength>
+          <metallic>1</metallic>
+        </defaultStyle>
+      </self>
+      <children>
+        <self itemName="Border">
+          <whiteMesh />
+          <transform>
+            <offsetPosition x="0" y="-0.15" z="-0.0125" />
+            <offsetRotation x="90" y="0" z="0" />
+            <scale x="0.24" y="0.03" z="1" />
+          </transform>
+          <defaultStyle>
+            <emissiveColor>FFFFFFFF</emissiveColor>
+            <color>585454FF</color>
+            <coatStrength>0.401</coatStrength>
+            <metallic>1</metallic>
+          </defaultStyle>
+        </self>
+      </children>
+    </children>
+    <children>
+      <self itemName="Glass">
+        <whiteMesh />
+        <transform>
+          <offsetPosition x="0" y="0" z="0.0075" />
+          <offsetRotation x="-0" y="0" z="0" />
+          <scale x="0.37" y="0.23" z="1" />
+        </transform>
+        <glassStyle>
+          <glassColor>FFFFFF</glassColor>
+          <color>1C1C1C00</color>
+          <thickness>1</thickness>
+          <smoothness>0.888</smoothness>
+        </glassStyle>
+      </self>
+    </children>
+  </children>
+</WELayout>

@@ -1,0 +1,94 @@
+<WELayout>
+  <children>
+    <self itemName="BG">
+      <transform>
+        <offsetPosition x="-0.006" y="2.335999" z="0.4970004" />
+        <offsetRotation x="0" y="270" z="0" />
+        <scale x="0.820078135" y="0.2025" z="1" />
+      </transform>
+      <whiteMesh />
+      <defaultStyle>
+        <color>001582FF</color>
+        <emissiveColor>FFFFFFFF</emissiveColor>
+        <metallic>1</metallic>
+        <smoothness>0</smoothness>
+        <emissiveIntensity>0</emissiveIntensity>
+        <emissiveExposureWeight>0</emissiveExposureWeight>
+        <coatStrength>0</coatStrength>
+        <colorMask1>FFFFFF</colorMask1>
+        <colorMask2>FFFFFF</colorMask2>
+        <colorMask3>FFFFFF</colorMask3>
+      </defaultStyle>
+    </self>
+    <children>
+      <self itemName="TXT">
+        <transform>
+          <offsetPosition x="0" y="0" z="0" />
+          <offsetRotation x="-0" y="0" z="0" />
+          <scale x="0.12" y="0.12" z="1" />
+        </transform>
+        <textMesh fontName="HelveticaWorld_Regular" maxWidthMeters="0.8">
+          <text formulae="&amp;BelzontWE.Builtin.WERoadFn;GetRoadSegmentCrossingDataByPropAngle.CachedValue/&amp;BelzontWE.Builtin.WERoadFn;GetRoadAggregation/&amp;BelzontWE.Builtin.WEUtitlitiesFn;GetEntityName">NEW TEXT4444</text>
+        </textMesh>
+        <defaultStyle>
+          <color>FFFFFFFF</color>
+          <emissiveColor>FFFFFFFF</emissiveColor>
+          <metallic>1</metallic>
+          <smoothness>0</smoothness>
+          <emissiveIntensity>0</emissiveIntensity>
+          <emissiveExposureWeight>0</emissiveExposureWeight>
+          <coatStrength>0</coatStrength>
+          <colorMask1>FFFFFF</colorMask1>
+          <colorMask2>FFFFFF</colorMask2>
+          <colorMask3>FFFFFF</colorMask3>
+        </defaultStyle>
+      </self>
+    </children>
+  </children>
+  <children>
+    <self itemName="BG">
+      <transform>
+        <offsetPosition x="0.007" y="2.335999" z="0.4970004" />
+        <offsetRotation x="-0" y="90" z="0" />
+        <scale x="0.820078135" y="0.2025" z="1" />
+      </transform>
+      <whiteMesh />
+      <defaultStyle>
+        <color>001582FF</color>
+        <emissiveColor>FFFFFFFF</emissiveColor>
+        <metallic>1</metallic>
+        <smoothness>0</smoothness>
+        <emissiveIntensity>0</emissiveIntensity>
+        <emissiveExposureWeight>0</emissiveExposureWeight>
+        <coatStrength>0</coatStrength>
+        <colorMask1>FFFFFF</colorMask1>
+        <colorMask2>FFFFFF</colorMask2>
+        <colorMask3>FFFFFF</colorMask3>
+      </defaultStyle>
+    </self>
+    <children>
+      <self itemName="TXT">
+        <transform>
+          <offsetPosition x="0" y="0" z="0" />
+          <offsetRotation x="-0" y="0" z="0" />
+          <scale x="0.12" y="0.12" z="1" />
+        </transform>
+        <textMesh fontName="HelveticaWorld_Regular" maxWidthMeters="0.8">
+          <text formulae="&amp;BelzontWE.Builtin.WERoadFn;GetRoadSegmentCrossingDataByPropAngle.CachedValue/&amp;BelzontWE.Builtin.WERoadFn;GetRoadAggregation/&amp;BelzontWE.Builtin.WEUtitlitiesFn;GetEntityName">NEW TEXT4444</text>
+        </textMesh>
+        <defaultStyle>
+          <color>FFFFFFFF</color>
+          <emissiveColor>FFFFFFFF</emissiveColor>
+          <metallic>1</metallic>
+          <smoothness>0</smoothness>
+          <emissiveIntensity>0</emissiveIntensity>
+          <emissiveExposureWeight>0</emissiveExposureWeight>
+          <coatStrength>0</coatStrength>
+          <colorMask1>FFFFFF</colorMask1>
+          <colorMask2>FFFFFF</colorMask2>
+          <colorMask3>FFFFFF</colorMask3>
+        </defaultStyle>
+      </self>
+    </children>
+  </children>
+</WELayout>
