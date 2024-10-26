@@ -11,6 +11,8 @@ There are 3 folders here:
  - Asset Layouts: contains themed subfolders that add features to vanilla assets, like **vehicle custom plates positions for vanilla assets** and **gas stations' price indicators**. Copy whole folders into prefab layouts folder of the mod (you can find a button leading there at the WE's options menu).
  - Importable Layouts: contains some prefabs layouts that can be imported as City Layout (via WE button at game's UI). Usage examples are the **vehicle custom plates layout definition**. Notice that some of them also might need the WE
 
+If you don't know how to git, just download this entire repositiory as a zip file (check the options at `<> Code` button) and then unzip it to get access to the files.
+
 # General instructions for using this mod
 ## Enabling the mod
 The mod have two accesses:
