@@ -1,0 +1,72 @@
+<WELayout>
+  <self itemName="New item">
+    <transform>
+      <offsetPosition x="0.0199999958" y="3.71999979" z="0" />
+      <offsetRotation x="-0" y="0" z="0" />
+      <scale x="0.17" y="0.17" z="1" />
+    </transform>
+    <imageMesh atlas="_WeGeneric">
+      <image>GenericPlateSmall</image>
+    </imageMesh>
+    <defaultStyle>
+      <color>FFFFFFFF</color>
+      <emissiveColor>FFFFFFFF</emissiveColor>
+      <metallic>0.404</metallic>
+      <smoothness>0.188</smoothness>
+      <emissiveIntensity>0</emissiveIntensity>
+      <emissiveExposureWeight>0</emissiveExposureWeight>
+      <coatStrength>0.332</coatStrength>
+      <colorMask1>FFFFFF</colorMask1>
+      <colorMask2>000000</colorMask2>
+      <colorMask3>FFFFFF</colorMask3>
+    </defaultStyle>
+  </self>
+  <children>
+    <self itemName="L1">
+      <transform>
+        <offsetPosition x="0" y="0.0350000151" z="0" />
+        <offsetRotation x="-0" y="0" z="0" />
+        <scale x="0.06" y="0.06" z="1" />
+      </transform>
+      <textMesh fontName="GlNummernschildEng" maxWidthMeters="0.15">
+        <text formulae="&amp;BelzontWE.Builtin.WEVehicleFn;GetVehiclePlateLine1"></text>
+      </textMesh>
+      <defaultStyle>
+        <color>000000FF</color>
+        <emissiveColor>FFFFFFFF</emissiveColor>
+        <metallic>1</metallic>
+        <smoothness>0.01</smoothness>
+        <emissiveIntensity>0</emissiveIntensity>
+        <emissiveExposureWeight>0</emissiveExposureWeight>
+        <coatStrength>0</coatStrength>
+        <colorMask1>FFFFFF</colorMask1>
+        <colorMask2>FFFFFF</colorMask2>
+        <colorMask3>FFFFFF</colorMask3>
+      </defaultStyle>
+    </self>
+  </children>
+  <children>
+    <self itemName="L2">
+      <transform>
+        <offsetPosition x="0" y="-0.0350000076" z="0" />
+        <offsetRotation x="-0" y="0" z="0" />
+        <scale x="0.06" y="0.06" z="1" />
+      </transform>
+      <textMesh fontName="GlNummernschildEng" maxWidthMeters="0.15">
+        <text formulae="&amp;BelzontWE.Builtin.WEVehicleFn;GetVehiclePlateLine2">&amp;BelzontWE.Builtin.WEVehicleFn;GetVehiclePlateLine2</text>
+      </textMesh>
+      <defaultStyle>
+        <color>000000FF</color>
+        <emissiveColor>FFFFFFFF</emissiveColor>
+        <metallic>1</metallic>
+        <smoothness>0.01</smoothness>
+        <emissiveIntensity>0</emissiveIntensity>
+        <emissiveExposureWeight>0</emissiveExposureWeight>
+        <coatStrength>0</coatStrength>
+        <colorMask1>FFFFFF</colorMask1>
+        <colorMask2>FFFFFF</colorMask2>
+        <colorMask3>FFFFFF</colorMask3>
+      </defaultStyle>
+    </self>
+  </children>
+</WELayout>

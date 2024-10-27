@@ -28,7 +28,7 @@
         <scale x="0.065" y="0.065" z="1" />
       </transform>
       <defaultStyle>
-        <color>000000</color>
+        <color>000000FF</color>
         <smoothness>0.01</smoothness>
         <metallic>0.05</metallic>
       </defaultStyle>
