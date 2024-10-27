@@ -9,8 +9,8 @@
       <scale x="0.10" y="0.10" z="1" />
     </transform>
     <defaultStyle> 
-      <colorMask2>FFFFFF</colorMask2> 
-      <colorMask1>BB2222</colorMask1>
+      <colorMask2>000000</colorMask2> 
+      <colorMask1>FF2222</colorMask1>
       <color>FFFFFFFF</color>
       <coatStrength>0.332</coatStrength>
       <smoothness>0.188</smoothness>
@@ -28,7 +28,7 @@
         <scale x="0.065" y="0.065" z="1" />
       </transform>
       <defaultStyle>
-        <color>F0F0F0FF</color>
+        <color>000000</color>
         <smoothness>0.01</smoothness>
         <metallic>0.05</metallic>
       </defaultStyle>

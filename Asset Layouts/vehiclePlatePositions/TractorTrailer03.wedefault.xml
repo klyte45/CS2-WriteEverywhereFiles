@@ -1,0 +1,14 @@
+<WELayout>
+  <children>
+    <self itemName="Plate">
+      <transform>
+        <offsetPosition x="-1.56399338E-07" y="1.13100016" z="-7.777" />
+        <offsetRotation x="-0" y="180" z="0" />
+        <scale x="0.4" y="0.13" z="1" />
+      </transform>
+      <layoutMesh>
+        <layout>_VEHICLEPLATE_TRUCK</layout>
+      </layoutMesh>
+    </self>
+  </children>
+</WELayout>
