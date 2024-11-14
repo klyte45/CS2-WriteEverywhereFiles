@@ -5,7 +5,7 @@
         <layout>_VEHICLEPLATE_CAR</layout>
       </layoutMesh>
       <transform>
-        <offsetPosition x="0.824000061" y="0.663000047" z="-2.23700118" />
+        <offsetPosition x="0.824000061" y="0.663000047" z="-2.238" />
         <offsetRotation x="0" y="180" z="0" />
         <scale x="0.4" y="0.13" z="1" />
       </transform>
